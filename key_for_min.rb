@@ -3,11 +3,11 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-binding.pry
 min_value = 100000
 min_value_name = nil
 
 name_hash.each do |key, value|
+  binding.pry
 #     if name_hash[key][value] = nil
 #       #or name_hash[key][value] <= min_value
 #       min_value = name_hash[key][value]
