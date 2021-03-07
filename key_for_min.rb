@@ -3,6 +3,7 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
+binding.pry
 # min_value = 100000
 # min_value_name = nil
 
