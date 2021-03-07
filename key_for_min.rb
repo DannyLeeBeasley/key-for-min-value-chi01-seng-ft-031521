@@ -3,15 +3,13 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-min_value = 100 
+min_value = 100
+min_value_name = nil
 
 name_hash.each do |key, value|
   name_hash[key][value]
-  if name_hash[key][value] = nil 
-    puts nil
     if name_hash[key][value] <= min_value 
       min_value = name_hash[key][value]
     end
   end
-end
 end
