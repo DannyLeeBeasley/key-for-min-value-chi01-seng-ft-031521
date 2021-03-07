@@ -12,6 +12,7 @@ name_hash.each do |key, value|
       or name_hash[key][value] <= min_value
       min_value = name_hash[key][value]
     end
-    min_value[key]
+    min_value_name = min_value[key]
   end
+  min_value_name
 end
