@@ -7,7 +7,8 @@ min_value = nil
 min_value_name = nil
 
 name_hash.each do |key, value|
-    if name_hash[key][value] <= min_value 
+    if name_hash[key][value] = min_value
+      or name_hash[key][value] <=
       min_value = name_hash[key][value]
     end
   end
