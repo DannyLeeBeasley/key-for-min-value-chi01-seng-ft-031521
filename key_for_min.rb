@@ -7,11 +7,11 @@ min_value = 100000
 min_value_name = nil
 
 name_hash.each do |key, value|
-  binding.pry
+  # binding.pry
      if value <= min_value
         min_value = value
-#     end
-#     min_value_name = min_value[key]
-end
-#   min_value_name
+     end
+     min_value_name = key
+end   
+min_value_name
 end
