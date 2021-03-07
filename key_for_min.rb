@@ -9,7 +9,7 @@ min_value_name = nil
 name_hash.each do |key, value|
   # binding.pry
      if value <= min_value
-       binding.pry
+       #binding.pry
         min_value = value
         min_value_name = key
      end
